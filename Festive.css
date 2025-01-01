@@ -252,6 +252,33 @@ footer p {
     }
 }
 
+#social-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-container {
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.social-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-link:hover {
+    color: #007acc;
+    transition: color 0.3s ease;
+}
+
+
 @media (min-width: 1367px) and (max-width: 1920px) {
     header h1 {
         font-size: 3.5rem;
